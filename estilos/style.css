@@ -1,0 +1,163 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #ff7f3f;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.ingredientesTexto {
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  margin: 30px 0 10px;
+  text-transform: uppercase;
+}
+
+#ingredientes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.ingrediente-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ingrediente-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.ingrediente-item p {
+  font-size: 0.9rem;
+  color: #333;
+  margin: 0;
+}
+
+.sobre {
+  padding: 25px;
+  background-color: #fff;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sobre h2 {
+  font-size: 1.8rem;
+  color: #ff7f3f;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.sobre p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+ol {
+  margin-left: 5px;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  color: #333;
+}
+
+.destaque {
+  color: #FF1D00;
+  font-weight: bold;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  border: none;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+main {
+  padding: 10px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #ff7f3f;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.relogio-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.relogio {
+  fill: red;
+  width: 32px;
+  height: 32px;
+  margin-top: -8px;
+}
+
+.tempo-preparo {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.informacoes-adicionais {
+  margin: 30px 0;
+}
+
+.informacoes-adicionais h1 {
+  font-size: 1.8rem;
+  color: black;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.informacoes-adicionais p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.informacoes-adicionais strong {
+  color: #FF7F3F;
+}
